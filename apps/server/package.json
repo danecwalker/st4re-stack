@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node .",
+    "dev": "ts-node ."
+  },
+  "dependencies": {
+    "@trpc/server": "^9.27.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "zod": "^3.17.10"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.6.5",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

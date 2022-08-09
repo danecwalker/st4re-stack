@@ -1,27 +1,26 @@
 {
   "name": "web",
   "version": "0.0.0",
-  "private": true,
+  "description": "",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.0",
+    "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
-    "next": "12.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "ui": "workspace:*"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "eslint-config-custom": "workspace:*",
-    "eslint": "7.32.0",
-    "next-transpile-modules": "9.0.0",
-    "tsconfig": "workspace:*",
-    "@types/node": "^17.0.12",
-    "@types/react": "17.0.47",
-    "typescript": "^4.5.3"
+    "@trpc/client": "^9.27.0",
+    "@solidjs/router": "^0.4.2",
+    "server": "workspace:*",
+    "solid-js": "^1.4.7"
   }
 }
