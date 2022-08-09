@@ -5,6 +5,7 @@
 - [What is the ST4RE Stack?](##What-is-the-ST4RE-Stack?)
 - [Getting Started](##Getting-Started)
 - [Contributing](##Contributing)
+- [License](##License)
 
 ## What is the ST4RE Stack?
 
@@ -31,3 +32,7 @@ The monorepo uses pnpm for package management
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](./LICENSE)
