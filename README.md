@@ -2,10 +2,10 @@
 
 ## Table of contents
 
-- [What is the ST4RE Stack?](##What-is-the-ST4RE-Stack?)
-- [Getting Started](##Getting-Started)
-- [Contributing](##Contributing)
-- [License](##License)
+- [What is the ST4RE Stack?](#What-is-the-ST4RE-Stack?)
+- [Getting Started](#Getting-Started)
+- [Contributing](#Contributing)
+- [License](#License)
 
 ## What is the ST4RE Stack?
 
